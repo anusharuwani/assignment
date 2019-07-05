@@ -1,0 +1,58 @@
+@import "../../styles/_variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filterPanel {
+  background-color: $white;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.table {
+  width: 90%;
+}
+
+.row {
+  background-color: $white;
+}
+
+.view {
+  color: $button-color;
+  cursor: pointer;
+}
+
+.published {
+  display: flex;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  background-color: #43be5b;
+  width: 60%;
+}
+
+.draft {
+  display: flex;
+  color: $white;
+  justify-content: center;
+  align-items: center;
+  background-color: #BAC0CE;
+  width: 60%;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.topRow {
+  display: flex;
+  width: 90%;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
